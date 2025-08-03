@@ -1,52 +1,78 @@
-<p align="center">
-  <img src="https://your-image-url.com/banner.png" alt="Our Platform Banner" width="800"/>
-</p>
-
-<h1 align="center">Welcome to the Cogito AI Engineering Hub</h1>
+<h1 align="center">Cogito AI Engineering Hub</h1>
 
 <p align="center">
-  This is the central hub for all our platform services and shared components. Our goal is to build a robust, scalable, and maintainable ecosystem.
+  Welcome to the central hub for all platform services and shared components. This document organizes our repositories by their functional tags for clarity and quick access.
 </p>
 
 ---
 
-## 🚀 Platform Core Services
+## � Repository Directory by Tags
 
-These services form the backbone of our platform. They handle core functionalities like authentication, data processing, and notifications.
+### 🟦 API
+Core APIs powering the platform:
 
-| Service        | Description                                       | Topics                                                                                                                                                             | Status                                                                                                                                          |
-| -------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| **[auth-service]** | Manages user authentication and authorization.    | `platform`, `service`, `api`, `security`                                                                                                                           | ![Build Status](https://img.shields.io/github/actions/workflow/status/YOUR_ORG_NAME/auth-service/main.yml?branch=main&style=for-the-badge)       |
-| **[data-pipeline]** | ETL pipelines for processing analytics data.      | `platform`, `service`, `data`                                                                                                                                      | ![Build Status](https://img.shields.io/github/actions/workflow/status/YOUR_ORG_NAME/data-pipeline/main.yml?branch=main&style=for-the-badge)      |
-| **[notification-svc]** | Handles email, SMS, and push notifications.     | `platform`, `service`, `api`                                                                                                                                       | ![Build Status](https://img.shields.io/github/actions/workflow/status/YOUR_ORG_NAME/notification-svc/main.yml?branch=main&style=for-the-badge) |
+- trader-market-intel-platform-api
+- platform-agent-core-poc
 
-**[➡️ View all Platform repositories...](https://github.com/orgs/YOUR_ORG_NAME/repositories?q=topic%3Aplatform)**
+### 🟩 Platform
+Platform-level services and orchestrators:
+
+- trader-market-intel-platform-api
+- platform-agent-core-poc
+
+### 🗄️ Database
+Data storage and utility services:
+
+- s3-document-store-utility
+
+### ⚙️ Background Services
+Automated and scheduled background processes:
+
+- platform-agent-core-poc
+- platform-scheduler-component
+- data-acquisition-component
+- knowledge-summary-data-pipeline
+
+### 🚚 Continuous Delivery
+Infrastructure and CI/CD templates:
+
+- continuous_delivery_templates
+- aws-platform-infrastructure
+
+### 📥 Data Ingestion
+Pipelines and utilities for ingesting and harmonizing data:
+
+- data-harmonizer
+- data-acquisition-component
+- chunker-tagger-knowledge-summary-core
+- api-data-puller-lib
+
+### 👤 User Management
+User and identity utilities:
+
+- simple-user-util
+
+### 📝 Logging
+Platform-wide logging and tracing:
+
+- platform-workflow-tracer
+
+### 🗂️ Project Planning
+Project management and planning tools:
+
+- project-planning
 
 ---
 
 ## 🧩 Reusable Components
 
-Shared libraries and UI components that can be used across multiple applications to ensure consistency and speed up development.
+Shared libraries for use across multiple applications:
 
-| Component         | Description                                        | Topics                                                                                                                                                             |
-| ----------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **[ui-design-system]** | A collection of reusable React UI components.      | `component`, `library`, `ui`, `react`                                                                                                                              |
-| **[logging-library]** | Standardized logging library for all services.     | `component`, `library`, `golang`                                                                                                                                   |
-| **[api-client-sdk]** | An SDK for easily interacting with our platform API. | `component`, `sdk`                                                                                                                                                 |
-
-**[➡️ View all Component repositories...](https://github.com/orgs/YOUR_ORG_NAME/repositories?q=topic%3Acomponent)**
+- s3-document-store-utility
+- data-harmonizer
+- simple-user-util
+- chunker-tagger-knowledge-summary-core
+- platform-workflow-tracer
+- api-data-puller-lib
 
 ---
-
-### Quick Links
-
-- [Our Technical Documentation](https://github.com/YOUR_ORG_NAME/documentation-repo)
-- [Contribution Guidelines](https://github.com/YOUR_ORG_NAME/.github/blob/main/CONTRIBUTING.md)
-- [Report an issue](https://github.com/YOUR_ORG_NAME/some-repo/issues)
-
-[auth-service]: https://github.com/YOUR_ORG_NAME/auth-service
-[data-pipeline]: https://github.com/YOUR_ORG_NAME/data-pipeline
-[notification-svc]: https://github.com/YOUR_ORG_NAME/notification-svc
-[ui-design-system]: https://github.com/YOUR_ORG_NAME/ui-design-system
-[logging-library]: https://github.com/YOUR_ORG_NAME/logging-library
-[api-client-sdk]: https://github.com/YOUR_ORG_NAME/api-client-sdk
