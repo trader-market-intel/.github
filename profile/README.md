@@ -51,6 +51,7 @@ Pipelines and utilities for ingesting and harmonizing data:
 User and identity utilities:
 
 - simple-user-util
+- simple-api-util
 
 ### 📝 Logging
 Platform-wide logging and tracing:
